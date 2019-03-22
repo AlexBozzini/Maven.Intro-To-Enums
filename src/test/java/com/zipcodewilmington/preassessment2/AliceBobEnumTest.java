@@ -14,7 +14,7 @@ public class AliceBobEnumTest {
         String expected = "ALICE";
 
         // When
-        String actual = alice.name();
+        String actual = alice.getName();
 
         // Then
         Assert.assertEquals(expected, actual);
@@ -28,7 +28,7 @@ public class AliceBobEnumTest {
         String expected = "BOB";
 
         // When
-        String actual = bob.name();
+        String actual = bob.getName();
 
         // Then
         Assert.assertEquals(expected, actual);
